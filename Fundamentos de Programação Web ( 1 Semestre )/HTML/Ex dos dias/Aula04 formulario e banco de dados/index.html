@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotmulário e Banco de dados</title>
+</head>
+
+<body>
+
+    <!-- Inicio -->
+    <h1>Formulário básico</h1>
+
+    <form action="sucess.html" method="get">
+
+        <h2>Dados pessoais:</h2>
+
+        <label for="nome-campo">Nome: </label>
+        <input id="nome-campo" type="text" placeholder="Digite seu nome" required>
+
+        <br>
+
+        <label for="email-campo">Email: </label>
+        <input id="email-campo" type="email" placeholder="Digite seu email" required>
+
+        <br>
+
+        <label for="senha-campo">Senha: </label>
+        <input id="senha-campo" type="password" placeholder="Digite sua senha" required maxlength="8" minlength="5">
+
+        <br><br>
+
+        <label for="data-campo">Data de nacimento: </label>
+        <input type="date" required>
+
+        <h2>Genero</h2>
+
+        <input type="radio" id="masculino" name="Genero" value="masculino">
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" id="feminino" name="Genero" value="feminino">
+        <label for="feminino">Feminino</label>
+
+        <br><br>
+
+        <h3>Redes Socias</h3>
+        <input type="checkbox" id="facebook" name="facebook" value="facebook">
+        <label for="facebook">Facebook: </label>
+
+        <input type="checkbox" id="instagram" name="instagram" value="instagram">
+        <label for="instagram">Instagram </label>
+
+        <input type="checkbox" id="x" name="x" value="x">
+        <label for="x">Facebook: </label>
+
+        <br><br>
+
+        <h2>Selecione sua faculdade</h2>
+        <select>
+            <option selected value="UsF">UsF</option>
+            <option value="Unip">Unip</option>
+            <option value="UNIFAAt">UniFaat</option>
+            <option disabled value="VAGSB">VAGSB</option>
+        </select>
+
+        <br><br>
+
+        <input type="checkbox" required>
+        <label></label> Aceito os <a href="termos.html" target="_blank">termos</a> de contrato</label>
+
+        <br><br>
+
+        <button type="submit">Cadastrar-se</button>
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

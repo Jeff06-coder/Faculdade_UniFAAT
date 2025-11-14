@@ -1,0 +1,13 @@
+/* Sobre as margens */
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 44px;
+    border: solid 5px yellow;
+    padding: 33px;
+    margin: 22px 200px 44px 33px;
+}
+/*  */
+div{
+    border: inherit;
+    padding: inherit;
+}

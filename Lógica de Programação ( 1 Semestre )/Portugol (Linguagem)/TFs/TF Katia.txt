@@ -1,0 +1,86 @@
+Atividade 1:
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real KG, Altura, IMC
+		cadeia nome
+		escreva("Nome do paciente: ")
+		leia (nome)
+		escreva ("Informe seu peso em Kg: ")
+		leia (KG)
+		escreva ("Informe seu tamanho em metros: ")
+		leia (Altura)
+		IMC = (Altura * Altura) /KG
+		escreva ("Seu IMC é " + IMC +"\n")
+	}
+}
+
+Atividade 2:
+
+programa
+{
+	
+	funcao inicio()
+	{
+ 
+		real din, dol
+		escreva ("Quantos Reais vc quer converter? ")
+		leia (din)
+		dol = (din * 0.1740)
+		escreva ("Você comprou " + dol + " de dolares!")
+	}
+}
+
+Atividade 3:
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real largura, frente, result
+		escreva ("Qual é a largura do terreno? ")
+		leia (largura)
+		escreva ("Qual é a comprimento (frente) do terreno? ")
+		leia (frente)
+		result = (largura * frente)
+		escreva ("A área deste terreno é: " + result + "")
+		
+	}
+}
+
+Atividade 4:
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real grauC, fire
+		escreva ("Qantos graus Celsius você deseja converter em Fahrenheit? ")
+		leia (grauC)
+		fire = (grauC * 9/5) + 32
+		escreva ("A quantidade de Fahrenheit é " + fire + "")
+	}
+}
+
+Atividade 5:
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real salario, Nsalario
+		cadeia nome
+		escreva ("Qual é seu nome querido(a) funcionário(a)? ")
+		leia (nome)
+		escreva ("Quanto vc está recebendo atualmente " + nome + "? ")
+		leia (salario)
+		Nsalario = (salario /100) *8.5 + (salario)
+		escreva ("Ok, aq está seu novo salário, pelo seu ótimo trabalho " + nome +".Agora seu salário é de " + Nsalario +", parabéns pelo seu serviço!")
+	}
+}

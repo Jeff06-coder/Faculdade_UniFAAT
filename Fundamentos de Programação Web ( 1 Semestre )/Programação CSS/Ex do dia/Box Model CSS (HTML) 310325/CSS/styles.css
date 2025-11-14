@@ -1,0 +1,27 @@
+.seletor{
+    color: blue;
+    font-size: 33px;
+    text-align: center;
+
+/* multiplos valores */
+
+border: solid 6px black;
+font-family: Arial, Helvetica, sans-serif;
+
+/* calculos posiçao */
+
+width: calc(80%- 50%);
+background-color: black
+}
+/* Usando pseudo-classe */
+
+.seletor:hover{
+    background-color: red;
+
+}
+/* pseudo-elemento */
+
+.seletor::first-letter{
+    font-size: 40px;
+    font-weight: bold;
+}

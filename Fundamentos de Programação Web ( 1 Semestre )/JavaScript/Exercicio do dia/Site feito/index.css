@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.7;
+    color: blueviolet;
+    background-color: white;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    color: yellow;
+    padding: 3px 2px;
+    z-index: 1000;
+
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-links{
+    list-style: none; 
+    display: flex;
+    gap: 2rem;
+}
+
+
+.navbar .navlinks a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .navbarlinks a:hover{
+    color: tomato;
+}
+
+header.hero{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ_2oII-AssPFNOvcLQ6ecJ6ZWQlUbKU3j8w&s');
+      /* no-repeat center center/cover PARA TIRAR AS REPARTIDAS DA IMAGEM */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.hero h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.hero .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero .btn:hover{
+    background-color: green;
+    transition: background-color 0.5s;
+}
+
+section h2{
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.recursos ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.recursos li{
+    padding: 1rem 0;
+}

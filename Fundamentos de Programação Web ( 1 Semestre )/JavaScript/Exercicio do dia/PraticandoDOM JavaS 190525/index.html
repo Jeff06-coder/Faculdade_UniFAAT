@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM....</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Exemplo 1 de DOM -->
+    <h1>Manipulando a DOM com JS</h1>
+
+    <section>
+        <h2>Exemplo1: texto alterado</h2>
+        <h3 id="titulo">Ola mundo!</h3>
+        <button onclick="mudartexto()">Mudar texto!</button>
+    </section>
+
+<!--Exemplo 2 de DOM  -->
+<section>
+<h2>Exemplo2: adicionando item</h2>
+<button onclick="adicionaritem()">Adicionando item</button>
+<ul id="lista">Item bah</ul>
+</section>
+
+<!--Exemplo 3 de DOM  -->
+<section>
+<h2>Exemplo3: Estilo sendo mudado</h2>
+<button onclick="mudarcor()">mudar estilo</button>
+<p id="paragrafo">Clique no button para mudar cor e texto</p>
+</section>
+
+<!-- Exemplo 4 de DOM -->
+<section>
+    <h2>Exemplo4 : remover ultimo item</h2>
+    <ul id="lista2">
+        <li>Item2</li>
+        <li>Itembah</li>
+    </ul>
+    <button onclick="removeritem()">Remover ultimo</button>
+</section>
+
+
+<!-- Exemplo 5 de DOM -->
+<section>
+    <h2>Exemplo5 : eventos visuais</h2>
+    <p>passe o mouse na caixa abaixo</p>
+    <div id="caixa" class="caixa" onmouseover="destacar()" onmouseout="removerdestaque()"></div>
+</section>
+
+    <script src="./js/custom.js"></script>
+</body>
+</html>
